@@ -1,0 +1,41 @@
+.landing {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: #a57d24;
+  align-items: center;
+  justify-content: center;
+}
+.landing-rigth img {
+  width: 375px;
+}
+.landing-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem !important;
+}
+.lanidng-logo {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0.5rem;
+}
+.lanidng-logo img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+.landin-title {
+  color: #fff;
+  margin: 1rem 0;
+}
+.btn-blue {
+  background-color: #343a40 !important;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  margin: 0.5rem 0;
+}
+.landing a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+.nav-item:hover .nav-link {
+  color: #a57d24 !important;
+  transition: all 0.3s ease;
+}
+.nav-item-search {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0 !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link.search {
+  color: #a57d24 !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.btn-seacrch {
+  background-color: transparent;
+}
+.modal-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+.modal-header {
+  border: none !important;
+}
+input {
+  width: 500px;
+  border-color: #a57d24;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+}

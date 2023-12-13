@@ -1,0 +1,138 @@
+.header {
+  background-color: transparent;
+  height: 70px !important;
+}
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in;
+  height: 70px !important;
+}
+.nav-item {
+  position: relative;
+}
+
+.navbar-brand {
+  width: 150px;
+  height: auto;
+  margin: 0 !important;
+}
+.navbar-brand img {
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+.nav-link {
+  position: relative !important;
+  font-family: 'vazir-md';
+  transition: all 0.3s ease;
+
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.nav-link-btn-gold {
+  background-color: #a57d24 !important ;
+  border-radius: 50px;
+}
+.nav-link-btn-green {
+  background-color: #24441e !important;
+  border-radius: 50px;
+}
+.navlink-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-icon {
+  font-size: 20px;
+}
+.nav-item:hover .nav-link {
+  color: #a57d24 !important;
+  transition: all 0.3s ease;
+}
+.nav-item:hover .nav-link.nav-link-btn-gold,
+.nav-item:hover .nav-link.nav-link-btn-green {
+  color: #fff !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  border-top: none !important;
+  border-left: none !important;
+}
+
+/*END STYLE BUTTON IN THE HEADER  */
+
+/* START STYLE NAVBAR TOGGLER  */
+.navbar-toggler {
+  position: relative !important;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+/* STYLE FOR HOVER DROPSOWN MENU IN THE 992PX SIZE */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 1rem;
+    opacity: 0;
+
+    transition: all 0.5s ease;
+  }
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  animation: fade-bottom 1s ease-in;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: #a57d24 !important;
+  background-color: transparent;
+}
+
+.navbar .nav-item .dropdown-menu {
+  margin-top: 25px;
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease-in !important;
+}
+
+.nav-item:hover .nav-link::after {
+  transform: scaleX(1);
+}
+
+.nav-item:hover .nav-link {
+  color: #a57d24 !important;
+  transition: all 0.3s ease;
+}
+.nav-item-search {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0 !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link.search {
+  color: #a57d24 !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
