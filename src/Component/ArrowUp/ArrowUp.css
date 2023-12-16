@@ -1,0 +1,23 @@
+.arrowup {
+  position: fixed;
+  padding: 0.5rem 0.7rem;
+  bottom: 0;
+  right: 30px;
+  background-color: #333;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  transition: all 0.3s ease;
+  display: block;
+}
+.arrow-none {
+  display: none;
+  transition: all 0.3s ease-in;
+}
+.arrowup:hover {
+  background-color: #a57d24;
+}
+.arrowup-icon {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
