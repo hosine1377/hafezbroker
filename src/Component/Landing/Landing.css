@@ -35,6 +35,9 @@
   outline: none;
   margin: 0.5rem 0;
 }
+.btn-blue:hover {
+  background-color: #2f343ada !important;
+}
 .landing a {
   text-decoration: none;
   color: #fff;
