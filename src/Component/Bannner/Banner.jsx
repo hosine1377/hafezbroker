@@ -13,7 +13,7 @@ import { Navigation } from 'swiper/modules'
 import './Banner.css'
 function Banner() {
   return (
-    <>
+    <div className="banner">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <img src={img1} alt="" className="img-fluid" />
@@ -25,7 +25,7 @@ function Banner() {
           <img src={img3} alt="" />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   )
 }
 
