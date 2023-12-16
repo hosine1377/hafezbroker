@@ -7,6 +7,7 @@ import Blog from './Component/Blog/Blog'
 import Landing from './Component/Landing/Landing'
 import Footer from './Component/Footer/Footer'
 import Slider from './Component/Slider/Slider'
+import ArrowUp from './Component/ArrowUp/ArrowUp'
 // import Test from './Component/Test/Test'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Landing />
       <Slider />
       <Footer />
+      <ArrowUp />
     </>
   )
 }
