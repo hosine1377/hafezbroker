@@ -12,17 +12,23 @@ function Access() {
         <Title title="دسترسی سریع" />
         <Row className="justify-content-md-center">
           <Col lg={4} md={12} className=" card my-md-3 my-3">
-            <Card.Img className="card-imgage " variant="top" src={img2} />
+            <div className="cover-image">
+              <Card.Img className="card-imgage " variant="top" src={img2} />
+            </div>
 
             <Card.Title className="card-title">Card Title</Card.Title>
           </Col>
           <Col lg={4} md={12} className="card card my-md-3 my-3   ">
-            <Card.Img className="card-imgage " variant="top" src={img3} />
+            <div className="cover-image">
+              <Card.Img className="card-imgage " variant="top" src={img3} />
+            </div>
 
             <Card.Title className="card-title">Card Title</Card.Title>
           </Col>
           <Col lg={4} md={12} className=" card card my-md-3  my-3">
-            <Card.Img className="card-imgage " variant="top" src={img2} />
+            <div className="cover-image">
+              <Card.Img className="card-imgage " variant="top" src={img2} />
+            </div>
 
             <Card.Title className="card-title">Card Title</Card.Title>
           </Col>
