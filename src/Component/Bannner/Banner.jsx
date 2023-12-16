@@ -14,15 +14,56 @@ import './Banner.css'
 function Banner() {
   return (
     <div className="banner">
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper
+        navigation={true}
+        modules={[Navigation]}
+        className="mySwiper"
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         <SwiperSlide>
           <img src={img1} alt="" className="img-fluid" />
+          <div class="animated_text slider_text text-center">
+            <h2>
+              خرید رقابتی کالا در کارگزاری حافظ
+              <div class="h4">سامانه آنلاین بورس کالا</div>
+            </h2>
+            <div class="row box-row m-0">
+              <div class="col bg-warning box-col">
+                <a href="#">سامانه بورس کالا</a>
+              </div>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={img2} alt="" />
+          <div class="animated_text slider_text text-center">
+            <h2>
+              خرید رقابتی کالا در کارگزاری حافظ
+              <div class="h4">سامانه آنلاین بورس کالا</div>
+            </h2>
+            <div class="row box-row m-0">
+              <div class="col bg-warning box-col">
+                <a href="#">سامانه بورس کالا</a>
+              </div>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={img3} alt="" />
+          <div class="animated_text slider_text text-center">
+            <h2>
+              هم وزنِ معاملات
+              <div class="h4">
+                اعتبار، تخفیف کارمزد و صندوق‌های سرمایه‌گذاری
+              </div>
+            </h2>
+            <div class="row box-row m-0">
+              <div class="col bg-warning box-col">
+                <a href="#">سامانه بورس کالا</a>
+              </div>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
