@@ -87,8 +87,9 @@
     top: 10px;
     right: 0;
     background: white;
+    border: 2px solid #a57d24;
     border-radius: 5px;
-    width: 250px;
+    width: auto;
     padding: 1rem;
     opacity: 0;
 

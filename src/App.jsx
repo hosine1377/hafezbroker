@@ -7,6 +7,7 @@ import Blog from './Component/Blog/Blog'
 import Landing from './Component/Landing/Landing'
 import Footer from './Component/Footer/Footer'
 import Slider from './Component/Slider/Slider'
+// import Test from './Component/Test/Test'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Access />
       <Reason />
+      {/* <Test /> */}
       <Blog />
       <Landing />
       <Slider />
