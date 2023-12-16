@@ -8,7 +8,6 @@ function Header() {
   const [color, setColor] = useState(false)
   const handelScroll = () => {
     if (window.scrollY > 90) {
-      console.log(color)
       setColor(true)
     } else {
       setColor(false)
